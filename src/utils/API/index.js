@@ -1,4 +1,7 @@
 import Axios from 'axios';
+//TODO: Hide keys on ENV. 
+
+
 export const getWeather = async (city = 'Toronto') => {
   try {
     if (city.trim() === '') city = 'Toronto';
